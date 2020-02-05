@@ -114,23 +114,6 @@ section.intro {
 		.margin-padding();
 	}
 
-	h1 {
-		font-size: 40px;
-		.margin-padding();
-	}
-
-	h2 {
-		.margin-padding();
-	}
-	
-	h3 {
-		.margin-padding();
-	}
-
-	p {
-		.margin-padding();
-	}
-
 	button {
 		background-color: #808080;
 		font-size: 14px;
@@ -151,17 +134,23 @@ section.intro {
 
 section.description {
 	display: flex;
-	// border: 1px solid brown;
+	justify-content: space-between;
+	border: 1px solid brown;
 	.margin-padding();
 
 	.about {
 		width: 48%;
+		border: 1px solid blueviolet;
+		margin: 5px;
 	}
 
 	.stuff {
 		width: 48%;
+		border: 1px solid blueviolet;
+		margin: 5px;
 	}
 }
+
 
 .history {
 	// border: 1px solid aqua;
@@ -206,5 +195,25 @@ div.footer {
 		font-family: 'Unical Antiqua', cursive;
 	}
 
+}
+
+h1 {
+	font-size: 40px;
+	.margin-padding();
+}
+
+h2 {
+	font-size: 30px;
+	.margin-padding();
+}
+
+h3 {
+	font-size: 25px;
+	.margin-padding();
+}
+
+p {
+	font-size: 23px;
+	.margin-padding();
 }
 
